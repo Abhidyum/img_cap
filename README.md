@@ -13,6 +13,7 @@ CaptionGenie is trained on the [Flickr8k dataset](https://www.kaggle.com/dataset
 ## Model Architecture
 CaptionGenie employs an autoencoder-like architecture:
 1. **Feature Extractor (Encoder)**: A pre-trained VGG16 model is used to extract image features. The fully connected layers of the VGG16 model (before classification) are used to obtain feature vectors that represent the image.
+  
 2. **Caption Generator (Decoder)**: An LSTM-based model processes the image features and generates captions word by word. The model includes embedding layers, LSTM layers, and dense layers to predict the next word in the sequence.
 
 ## Results
@@ -21,6 +22,17 @@ CaptionGenie is capable of generating captions that accurately describe the cont
 ## BLEU Scores
 * **BLEU-1:** 0.521285
 * **BLEU-2:** 0.302905
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to us:
+
+- **Email**: tyagiabhidyum@gmail.com
+- **GitHub**: [Abhidyum](https://github.com/Abhidyum)
 
 
 
