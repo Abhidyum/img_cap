@@ -1,5 +1,5 @@
-tensorflow==2.15.0
-numpy==1.26.4
-nltk==3.9.1
-pillow==10.4.0
-streamlit==1.37.0  
+tensorflow
+numpy
+nltk
+pillow
+streamlit
